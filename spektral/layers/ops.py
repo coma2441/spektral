@@ -1,5 +1,5 @@
 from keras import backend as K
-from keras.backend import tf
+import tensorflow as tf
 import scipy.sparse as sp
 import numpy as np
 
