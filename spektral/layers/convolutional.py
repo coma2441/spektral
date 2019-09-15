@@ -2,7 +2,7 @@ from __future__ import absolute_import
 
 from keras import activations, initializers, regularizers, constraints
 from keras import backend as K
-from keras.backend import tf
+import tensorflow as tf
 from keras.layers import Layer, LeakyReLU, Dropout, AveragePooling2D, AveragePooling1D
 
 from spektral.layers.ops import filter_dot
